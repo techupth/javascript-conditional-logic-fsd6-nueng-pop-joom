@@ -1,5 +1,14 @@
 function calculateStudentGrade(score) {
   // Start coding here
+  return score >= 90
+    ? "A"
+    : score >= 80
+    ? "B "
+    : score >= 70
+    ? "C"
+    : score >= 60
+    ? "D"
+    : "E";
 }
 
 // Example case
